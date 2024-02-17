@@ -1,13 +1,15 @@
-import { Heading } from '@chakra-ui/react';
+import { Heading, Box } from '@chakra-ui/react';
 import D3Graph from './D3Graph';
+import Form from './PortfolioForm';
 import './styles.css';
 
 function App() {
   return (
-    <div className="App">
+    <Box className="App">
       <Heading>Name</Heading>
       <D3Graph />
-    </div>
+      <Form bg="red"/>
+    </Box>
   );
 }
 

@@ -5,7 +5,6 @@ const D3Graph = () => {
   const ref = useRef();
 
   useEffect(() => {
-    // D3.js code to create the graph
     const svg = d3.select(ref.current)
       .append("svg")
       .attr("width", 400)
